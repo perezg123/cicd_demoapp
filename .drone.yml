@@ -8,10 +8,11 @@ build:
         commands:
             - pip install -r requirements.txt
             - python testing.py
+
 publish:
-   docker:
-	repo:  perezg123/cicd_demoapp
-	tag: latest
-	username: perezg123
-	password: E!d0rad0
-	email: gabe@perezg.com
+    docker:
+        repo: perezg123/cicd_demoapp
+        tag: latest
+        username: perezg123
+        password: E!d0rad0
+        email: gabe@perezg.com
